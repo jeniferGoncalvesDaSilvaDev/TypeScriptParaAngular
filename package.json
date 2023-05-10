@@ -1,0 +1,24 @@
+{
+  "name": "typescriptparaangular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"npx tsc && node buil/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeniferGoncalvesDaSilvaDev/TypeScriptParaAngular.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeniferGoncalvesDaSilvaDev/TypeScriptParaAngular/issues"
+  },
+  "homepage": "https://github.com/jeniferGoncalvesDaSilvaDev/TypeScriptParaAngular#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
