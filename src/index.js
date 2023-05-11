@@ -170,3 +170,17 @@ var magician = /** @class */ (function (_super) {
 }(Personagem));
 var mago = new magician("Merlin", 54, 456, 17, 589);
 console.log(mago);
+//gerics
+//funçao que da varios arrays e retona um array-transforma tudo em um array soh
+function concatArray() {
+    var _a;
+    var itens = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        itens[_i] = arguments[_i];
+    }
+    return (_a = new Array()).concat.apply(_a, itens);
+}
+var numArray = concatArray([1, 2, 7], [4, 7, 2, 45, 1]);
+var strArray = concatArray(["Mika", "Jey", "Amanda", "Juliana"], ["Ratched", "Misa", "Mikasa", "Kirisu", "Norma Bates"]);
+console.log(numArray);
+console.log(strArray);

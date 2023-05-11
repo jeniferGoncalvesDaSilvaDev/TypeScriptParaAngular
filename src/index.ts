@@ -149,3 +149,13 @@ class magician extends Personagem{
 }
 let mago= new magician("Merlin",54,456,17,589);
 console.log(mago);
+//gerics-sintaxe <T>-Tipa aparametros da funçao
+//funçao que da varios arrays e retona um array-transforma tudo em um array soh
+function concatArray<T>(...itens:T[]):T[]{
+     return new Array().concat(...itens);
+}
+const numArray = concatArray<number[]>([1,2,7],[4,7,2,45,1]); // retorna um vetor de numeros
+const strArray= concatArray<string[]>(["Mika", "Jey","Amanda","Juliana"],["Ratched","Misa","Mikasa","Kirisu","Norma Bates"]); //retorna um vetor de string
+console.log(numArray);
+
+console.log(strArray);
